@@ -19,7 +19,7 @@ app.post('/', function(req, res){
 })
 
 app.put('/user',function(req, res){
-    res,send('Got a PUT request at /user')
+    res.send('Got a PUT request at /user')
 })
 
 app.delete('/user',function(req, res){
